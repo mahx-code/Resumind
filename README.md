@@ -302,7 +302,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 **Contact**
 
-**Your Name** - [@mahmudbuilds](https://twitter.com/mahmudbuilds) - your.email@example.com
+**Your Name** - [@mahmudbuilds](https://twitter.com/mahmudbuilds) - mahxgithub@gmail.com
 
 **Project Link**: [https://github.com/mahx-code/Resumind](https://github.com/mahx-code/Resumind)
 
