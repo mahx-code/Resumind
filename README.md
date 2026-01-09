@@ -9,7 +9,7 @@
 
 **An intelligent, AI-powered resume analyzer that instantly decodes resumes to provide actionable insights, ATS compatibility scores, and optimization recommendations for job seekers and recruiters.**
 
-[🚀 Live Demo](#) • [📖 Documentation](#features) • [🐛 Report Bug](#) • [✨ Request Feature](#)
+
 
 </div>
 
