@@ -1,5 +1,5 @@
 import Navbar from "../components/Navbar";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import FileUploader from "../components/FileUploader";
 import Toast from "../components/Toast";
 import { usePuterStore } from "~/lib/puter";
@@ -24,6 +24,11 @@ export default function Upload() {
   const [error, setError] = useState<string | null>(null);
   const navigate = useNavigate();
 
+  useEffect(() => {
+    if (!auth.isAuthenticated) {
+      navigate("/auth?next=/");
+    }
+  }, [auth.isAuthenticated]);
   const handleFileSelect = (file: File | null) => {
     setFile(file);
     if (file) setError(null);
